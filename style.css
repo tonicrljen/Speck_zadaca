@@ -244,3 +244,35 @@ h2 {
     font-weight: 300;
     color: var(--color-text-secondary);
 }
+
+/* Testimonials */
+
+.testimonials {
+    width: 100%;
+    background: #F6FAFB;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.testimonials_img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.testimonials_text {
+    padding-left: 120px;
+    font-size: 30px;
+    line-height: 180%;
+    color: var(--color-text-secondary);
+    width: 50%;
+}
+
+.testimonial_text-quotes {
+    font-size: 48px;
+}
